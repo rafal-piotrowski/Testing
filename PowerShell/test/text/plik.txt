@@ -1,0 +1,23 @@
+plik txt
+plik htmlplik csv<plik><xml></xml></plik>
+plik html\nplik csv\n<plik><xml></xml></plik>
+plik html/nplik csv/n<plik><xml></xml></plik>
+plik html<br/>plik csv/n<plik><xml></xml></plik>
+plik html\crplik csv/n<plik><xml></xml></plik>
+plik html
+plik csv<plik><xml></xml></plik>
+plik html
+plik csv
+<plik><xml></xml></plik>
+plik html
+plik csv
+<plik><xml></xml></plik>
+
+plik html
+plik csv
+<plik><xml></xml></plik>
+
+plik html
+plik csv
+<plik><xml></xml></plik>
+
