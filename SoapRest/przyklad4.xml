@@ -1,0 +1,20 @@
+<data>
+	<key>value</key>
+	<object-key>
+		<object>
+			<key1>value</key1>
+			<key2>value</key2>
+		</object>
+	</object-key>
+	<parent>
+		<child>
+			<child>
+				<jeszcze-jedno-child>
+					<another-one>
+						<key>value</key>
+					</another-one>
+				</jeszcze-jedno-child>
+			</child>
+		</child>
+	</parent>
+</data>

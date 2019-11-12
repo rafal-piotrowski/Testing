@@ -1,0 +1,113 @@
+{
+	"success": true,
+	"object": {
+	  "object-key-1": "object-value",
+	  "object-key-2": "object-value"
+	},
+	"versions": [
+		{
+			"versionId": "10698",
+			"publishNo": "102",
+			"versionName": "www2",
+			"versionStatus": "A",
+			"startDate": "-3600000",
+			"endDate": "82799999"
+		},
+		{
+			"versionId": "10699",
+			"publishNo": "103",
+			"versionName": "www2",
+			"versionStatus": "S",
+			"startDate": "1571781600000",
+			"endDate": "1572562799999"
+		},
+		{
+			"versionId": "10721",
+			"publishNo": "",
+			"versionName": "w111",
+			"versionStatus": "S",
+			"startDate": "1571349600000",
+			"endDate": "1572562799999"
+		},
+		{
+			"versionId": "10697",
+			"publishNo": "",
+			"versionName": "www2",
+			"versionStatus": "A",
+			"startDate": "-3600000",
+			"endDate": "82799999"
+		},
+		{
+			"versionId": "10722",
+			"publishNo": "",
+			"versionName": "w111",
+			"versionStatus": "S",
+			"startDate": "1571349600000",
+			"endDate": "1572562799999"
+		},
+		{
+			"versionId": "10723",
+			"publishNo": "",
+			"versionName": "w111",
+			"versionStatus": "S",
+			"startDate": "1571349600000",
+			"endDate": "1572562799999"
+		},
+		{
+			"versionId": "10724",
+			"publishNo": "",
+			"versionName": "w111",
+			"versionStatus": "S",
+			"startDate": "1571349600000",
+			"endDate": "1572562799999"
+		},
+		{
+			"versionId": "10725",
+			"publishNo": "",
+			"versionName": "w111",
+			"versionStatus": "S",
+			"startDate": "1571349600000",
+			"endDate": "1572562799999"
+		},
+		{
+			"versionId": "10726",
+			"publishNo": "",
+			"versionName": "w111",
+			"versionStatus": "S",
+			"startDate": "1571349600000",
+			"endDate": "1572562799999"
+		},
+		{
+			"versionId": "10727",
+			"publishNo": "",
+			"versionName": "w111",
+			"versionStatus": "S",
+			"startDate": "1571349600000",
+			"endDate": "1572562799999"
+		},
+		{
+			"versionId": "10728",
+			"publishNo": "",
+			"versionName": "w111",
+			"versionStatus": "S",
+			"startDate": "1571349600000",
+			"endDate": "1572562799999"
+		},
+		{
+			"versionId": "10729",
+			"publishNo": "",
+			"versionName": "w111",
+			"versionStatus": "S",
+			"startDate": "1571349600000",
+			"endDate": "1572562799999"
+		},
+		{
+			"versionId": "10730",
+			"publishNo": "115",
+			"versionName": "koko",
+			"versionStatus": "P",
+			"startDate": "1130799600000",
+			"endDate": "1162335600000"
+		}
+	]
+}

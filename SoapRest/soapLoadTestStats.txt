@@ -1,0 +1,3 @@
+Test Step,min,max,avg,last,cnt,tps,bytes,bps,err,rat
+getBank - Request 1,71,261,77.72,74,361,6.0,149454,2487,364,100
+TestCase:,71,261,77.72,74,361,6.0,149454,2487,364,100
