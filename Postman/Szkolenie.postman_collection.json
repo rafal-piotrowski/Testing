@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "a6e3d656-fea0-4765-a83d-2a1d2da71ec9",
+		"name": "Szkolenie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "pietrol_01",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bb598adc-6dec-477b-954a-e7da05c75327",
+						"exec": [
+							"function test1() {",
+							"// pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"// });",
+							"}",
+							"",
+							"function test2() {",
+							"// pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK. Everything worked as expected.\");",
+							"// });",
+							"}",
+							"",
+							"pm.test(\"Test łączny\", function () {",
+							"    test1();",
+							"    test2();",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/public-api/users?_format={{format}}&access-token={{token}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"public-api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "_format",
+							"value": "{{format}}"
+						},
+						{
+							"key": "access-token",
+							"value": "{{token}}"
+						}
+					]
+				},
+				"description": "testowy"
+			},
+			"response": []
+		},
+		{
+			"name": "pietrol_02_get_photos",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "44115466-4096-44dd-8afd-298893b5c2c9",
+						"exec": [
+							"function test1() {",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"}",
+							"",
+							"function test2() {",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK. Everything worked as expected.\");",
+							"});",
+							"}",
+							"",
+							"pm.test(\"Test łączny\", function () {",
+							"    test1();",
+							"    test2();",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/public-api/photos?_format={{format}}&access-token={{token}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"public-api",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "_format",
+							"value": "{{format}}"
+						},
+						{
+							"key": "access-token",
+							"value": "{{token}}"
+						}
+					]
+				},
+				"description": "get photos from https://gorest.co.in/"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

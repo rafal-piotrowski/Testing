@@ -1,0 +1,523 @@
+{
+	"id": "a2c0fd33-1241-444f-87c1-e29443551425",
+	"name": "Fake Collection",
+	"allTests": [],
+	"timestamp": "2019-11-12T14:23:20.131Z",
+	"collection_id": "ba0dcf48-8dce-49f0-92e5-a85b98fb517e",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 3,
+	"collection": {
+		"id": "ba0dcf48-8dce-49f0-92e5-a85b98fb517e",
+		"name": "Fake Collection",
+		"order": [
+			"b7cbf220-c6c3-48ff-bbf5-20c0017684de",
+			"e87ee37d-2637-47f2-937d-bc9cc8a5b116",
+			"6f0fc608-2c72-46ab-a706-5ccc148775f6",
+			"77f0f1e4-df72-463d-90ac-b0948f1f6f4f",
+			"bc3434a1-d86f-4c4e-a7d1-412c092f64a0",
+			"7f4b6511-d20e-4fad-bf2b-7bbd57b47aa2"
+		],
+		"folders_order": [],
+		"isFavorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [
+		{
+			"key": "token",
+			"value": "HGsY_e8Vc3W0ZANeJnoPOljYVG7MvzWL03Rj",
+			"enabled": true
+		},
+		{
+			"key": "url",
+			"value": "https://gorest.co.in",
+			"enabled": true
+		},
+		{
+			"key": "fake-token-1",
+			"value": "5a105e8b9d40e1329780d62ea2265d8a",
+			"enabled": true
+		},
+		{
+			"key": "fake-token-2",
+			"value": "890b12d4bbbc4d7b4e7f2c542431f82d",
+			"enabled": true
+		},
+		{
+			"key": "fake-url",
+			"value": "aad19cntapipractice.cna.nazwa.pl",
+			"enabled": true
+		},
+		{
+			"key": "protocol",
+			"value": "http:",
+			"enabled": true
+		},
+		{
+			"key": "fake-username",
+			"value": "aad194Practice",
+			"enabled": true
+		},
+		{
+			"key": "fake-password",
+			"value": "tMp4Pr4ctic31",
+			"enabled": true
+		},
+		{
+			"key": "fake-response-token",
+			"value": "49cb7d20454d5fad3d134009e3884e5f",
+			"enabled": true
+		}
+	],
+	"results": [
+		{
+			"name": "resetping",
+			"id": "b7cbf220-c6c3-48ff-bbf5-20c0017684de",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				"62",
+				"58",
+				"65"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "65",
+			"totalRequestTime": 185,
+			"iterationResults": {}
+		},
+		{
+			"name": "ping",
+			"id": "e87ee37d-2637-47f2-937d-bc9cc8a5b116",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				"53",
+				"66",
+				"60"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "60",
+			"totalRequestTime": 179,
+			"iterationResults": {}
+		},
+		{
+			"name": "pongchange",
+			"id": "6f0fc608-2c72-46ab-a706-5ccc148775f6",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				"45",
+				"246",
+				"46"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "46",
+			"totalRequestTime": 337,
+			"iterationResults": {}
+		},
+		{
+			"name": "pingAfterPong",
+			"id": "77f0f1e4-df72-463d-90ac-b0948f1f6f4f",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				"43",
+				"48",
+				"75"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "75",
+			"totalRequestTime": 166,
+			"iterationResults": {}
+		},
+		{
+			"name": "getallspeakers",
+			"id": "bc3434a1-d86f-4c4e-a7d1-412c092f64a0",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				"57",
+				"64",
+				"53"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			],
+			"time": "53",
+			"totalRequestTime": 174,
+			"iterationResults": {}
+		},
+		{
+			"name": "geteventtypes",
+			"id": "7f4b6511-d20e-4fad-bf2b-7bbd57b47aa2",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 2,
+					"fail": 3
+				}
+			},
+			"times": [
+				"61",
+				"42",
+				"51"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": false
+				}
+			],
+			"time": "51",
+			"totalRequestTime": 154,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 36,
+	"totalFail": 3,
+	"totalTime": 1195,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "resetping",
+			"id": "b7cbf220-c6c3-48ff-bbf5-20c0017684de",
+			"url": "http://aad19cntapipractice.cna.nazwa.pl/connection/resetping?token1=5a105e8b9d40e1329780d62ea2265d8a&token2=890b12d4bbbc4d7b4e7f2c542431f82d",
+			"time": "65",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "ping",
+			"id": "e87ee37d-2637-47f2-937d-bc9cc8a5b116",
+			"url": "http://aad19cntapipractice.cna.nazwa.pl/connection/ping?token1=5a105e8b9d40e1329780d62ea2265d8a&token2=890b12d4bbbc4d7b4e7f2c542431f82d",
+			"time": "60",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "pongchange",
+			"id": "6f0fc608-2c72-46ab-a706-5ccc148775f6",
+			"url": "http://aad19cntapipractice.cna.nazwa.pl/connection/pongchange?token1=5a105e8b9d40e1329780d62ea2265d8a&token2=890b12d4bbbc4d7b4e7f2c542431f82d",
+			"time": "46",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "pingAfterPong",
+			"id": "77f0f1e4-df72-463d-90ac-b0948f1f6f4f",
+			"url": "http://aad19cntapipractice.cna.nazwa.pl/connection/ping?token1=5a105e8b9d40e1329780d62ea2265d8a&token2=890b12d4bbbc4d7b4e7f2c542431f82d",
+			"time": "75",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "getallspeakers",
+			"id": "bc3434a1-d86f-4c4e-a7d1-412c092f64a0",
+			"url": "http://aad19cntapipractice.cna.nazwa.pl/connection/getallspeakers?token1=5a105e8b9d40e1329780d62ea2265d8a&token2=890b12d4bbbc4d7b4e7f2c542431f82d",
+			"time": "53",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 3,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "geteventtypes",
+			"id": "7f4b6511-d20e-4fad-bf2b-7bbd57b47aa2",
+			"url": "http://aad19cntapipractice.cna.nazwa.pl/connection/geteventtypes?token1=5a105e8b9d40e1329780d62ea2265d8a&token2=890b12d4bbbc4d7b4e7f2c542431f82d",
+			"time": "51",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 2,
+					"fail": 3
+				}
+			}
+		}
+	],
+	"synced": false
+}

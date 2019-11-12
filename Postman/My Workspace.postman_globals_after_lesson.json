@@ -1,0 +1,54 @@
+{
+	"id": "40baf01a-5283-4a43-80e8-23a0c8ee4719",
+	"values": [
+		{
+			"key": "token",
+			"value": "HGsY_e8Vc3W0ZANeJnoPOljYVG7MvzWL03Rj",
+			"enabled": true
+		},
+		{
+			"key": "url",
+			"value": "https://gorest.co.in",
+			"enabled": true
+		},
+		{
+			"key": "fake-token-1",
+			"value": "5a105e8b9d40e1329780d62ea2265d8a",
+			"enabled": true
+		},
+		{
+			"key": "fake-token-2",
+			"value": "890b12d4bbbc4d7b4e7f2c542431f82d",
+			"enabled": true
+		},
+		{
+			"key": "fake-url",
+			"value": "aad19cntapipractice.cna.nazwa.pl",
+			"enabled": true
+		},
+		{
+			"key": "protocol",
+			"value": "http:",
+			"enabled": true
+		},
+		{
+			"key": "fake-username",
+			"value": "aad194Practice",
+			"enabled": true
+		},
+		{
+			"key": "fake-password",
+			"value": "tMp4Pr4ctic31",
+			"enabled": true
+		},
+		{
+			"key": "fake-response-token",
+			"value": "49cb7d20454d5fad3d134009e3884e5f",
+			"enabled": true
+		}
+	],
+	"name": "My Workspace Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2019-11-12T14:39:38.128Z",
+	"_postman_exported_using": "Postman/7.10.0"
+}

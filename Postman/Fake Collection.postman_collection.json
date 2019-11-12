@@ -1,0 +1,372 @@
+{
+	"info": {
+		"_postman_id": "ba0dcf48-8dce-49f0-92e5-a85b98fb517e",
+		"name": "Fake Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "resetping",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4cf5c423-c60e-4ed1-aea4-a6cb2d3499d0",
+						"exec": [
+							"var fakeResponseToken = pm.globals.get(\"fake-response-token\");",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"1|\" + fakeResponseToken);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}/{{fake-url}}/connection/resetping?token1={{fake-token-1}}&token2={{fake-token-2}}",
+					"host": [
+						"{{protocol}}"
+					],
+					"path": [
+						"",
+						"{{fake-url}}",
+						"connection",
+						"resetping"
+					],
+					"query": [
+						{
+							"key": "token1",
+							"value": "{{fake-token-1}}"
+						},
+						{
+							"key": "token2",
+							"value": "{{fake-token-2}}"
+						}
+					]
+				},
+				"description": "ping"
+			},
+			"response": []
+		},
+		{
+			"name": "ping",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4cf5c423-c60e-4ed1-aea4-a6cb2d3499d0",
+						"exec": [
+							"var fakeResponseToken = pm.globals.get(\"fake-response-token\");",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"1|\" + fakeResponseToken + \"|01111111\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}/{{fake-url}}/connection/ping?token1={{fake-token-1}}&token2={{fake-token-2}}",
+					"host": [
+						"{{protocol}}"
+					],
+					"path": [
+						"",
+						"{{fake-url}}",
+						"connection",
+						"ping"
+					],
+					"query": [
+						{
+							"key": "token1",
+							"value": "{{fake-token-1}}"
+						},
+						{
+							"key": "token2",
+							"value": "{{fake-token-2}}"
+						}
+					]
+				},
+				"description": "ping"
+			},
+			"response": []
+		},
+		{
+			"name": "pongchange",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4cf5c423-c60e-4ed1-aea4-a6cb2d3499d0",
+						"exec": [
+							"var fakeResponseToken = pm.globals.get(\"fake-response-token\");",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"1|\" + fakeResponseToken);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "change_type",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{protocol}}/{{fake-url}}/connection/pongchange?token1={{fake-token-1}}&token2={{fake-token-2}}",
+					"host": [
+						"{{protocol}}"
+					],
+					"path": [
+						"",
+						"{{fake-url}}",
+						"connection",
+						"pongchange"
+					],
+					"query": [
+						{
+							"key": "token1",
+							"value": "{{fake-token-1}}"
+						},
+						{
+							"key": "token2",
+							"value": "{{fake-token-2}}"
+						}
+					]
+				},
+				"description": "ping"
+			},
+			"response": []
+		},
+		{
+			"name": "pingAfterPong",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4cf5c423-c60e-4ed1-aea4-a6cb2d3499d0",
+						"exec": [
+							"var fakeResponseToken = pm.globals.get(\"fake-response-token\");",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"1|\" + fakeResponseToken + \"|00\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}/{{fake-url}}/connection/ping?token1={{fake-token-1}}&token2={{fake-token-2}}",
+					"host": [
+						"{{protocol}}"
+					],
+					"path": [
+						"",
+						"{{fake-url}}",
+						"connection",
+						"ping"
+					],
+					"query": [
+						{
+							"key": "token1",
+							"value": "{{fake-token-1}}"
+						},
+						{
+							"key": "token2",
+							"value": "{{fake-token-2}}"
+						}
+					]
+				},
+				"description": "ping"
+			},
+			"response": []
+		},
+		{
+			"name": "getallspeakers",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4cf5c423-c60e-4ed1-aea4-a6cb2d3499d0",
+						"exec": [
+							"var fakeResponseToken = pm.globals.get(\"fake-response-token\");",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"ok|\" + fakeResponseToken + \"|\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}/{{fake-url}}/connection/getallspeakers?token1={{fake-token-1}}&token2={{fake-token-2}}",
+					"host": [
+						"{{protocol}}"
+					],
+					"path": [
+						"",
+						"{{fake-url}}",
+						"connection",
+						"getallspeakers"
+					],
+					"query": [
+						{
+							"key": "token1",
+							"value": "{{fake-token-1}}"
+						},
+						{
+							"key": "token2",
+							"value": "{{fake-token-2}}"
+						}
+					]
+				},
+				"description": "ping"
+			},
+			"response": []
+		},
+		{
+			"name": "geteventtypes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4cf5c423-c60e-4ed1-aea4-a6cb2d3499d0",
+						"exec": [
+							"var fakeResponseToken = pm.globals.get(\"fake-response-token\");",
+							"var events = [\"Registration\", \"Lunch\", \"Coffee break\", \"Łobiod\"];",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"ok|\" + fakeResponseToken + \"|\");",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    for (var i = 0; i < events.length; i++) {",
+							"        // events.foreach(function(item) {",
+							"        pm.expect(pm.response.text()).to.include(events[i]);",
+							"        // pm.expect(pm.response.text()).to.include(item);",
+							"    }",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}/{{fake-url}}/connection/geteventtypes?token1={{fake-token-1}}&token2={{fake-token-2}}",
+					"host": [
+						"{{protocol}}"
+					],
+					"path": [
+						"",
+						"{{fake-url}}",
+						"connection",
+						"geteventtypes"
+					],
+					"query": [
+						{
+							"key": "token1",
+							"value": "{{fake-token-1}}"
+						},
+						{
+							"key": "token2",
+							"value": "{{fake-token-2}}"
+						}
+					]
+				},
+				"description": "ping"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "{{fake-username}}",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "{{fake-password}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "922fb97f-17bb-4c30-9c97-6de3bd2cfba7",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "10a37f1f-06ea-4ffc-96d0-052ba1d3deb9",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
